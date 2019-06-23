@@ -54,7 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives on the island that that inspired Java language
+        Written by <strong>{author}</strong> who lives on the island that inspired Java language
         {` `}
       </p>
     </div>
