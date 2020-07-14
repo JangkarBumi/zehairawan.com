@@ -1,10 +1,10 @@
+import { graphql, Link } from "gatsby"
 import React from "react"
-import { Link, graphql } from "gatsby"
-
-import Bio from "../components/bio"
 import Layout from "../components/layout"
+import Navbar from "../components/Navbar"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import '../styles/style.css'
 
 class BlogIndex extends React.Component {
   render() {
@@ -13,9 +13,9 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location}>
         <SEO title="All posts" />
-        <Bio />
+        <Navbar></Navbar>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
