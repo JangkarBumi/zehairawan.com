@@ -1,6 +1,6 @@
 ---
 date: 2020-08-08
-title: 'Building Uila: Restaurant App
+title: 'Building Uila: Restaurant App'
 ---
 
 
