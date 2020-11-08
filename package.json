@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "ZehaIrawan.com",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Articles to help you learn and master frontend development with React",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Zeha Irawan <zehairawan@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },

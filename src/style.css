@@ -331,3 +331,17 @@ a:focus {
     list-style-position: inside;
   }
 }
+
+/* Nav */
+.nav {
+
+}
+
+.logo{
+
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+}

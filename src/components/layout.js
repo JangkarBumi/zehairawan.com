@@ -1,5 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
+import Nav from "./Nav"
+
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -7,17 +8,9 @@ const Layout = ({ location, title, children }) => {
   let header
 
   if (isRootPath) {
-    header = (
-      <h1 className="main-heading">
-        <Link to="/">{title}</Link>
-      </h1>
-    )
+    header = <Nav />
   } else {
-    header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
-    )
+    header = <Nav />
   }
 
   return (
