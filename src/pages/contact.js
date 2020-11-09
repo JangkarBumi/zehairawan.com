@@ -1,12 +1,14 @@
 import React from "react"
-import Nav from "../components/Nav"
+import Layout from "../components/Layout"
+
+import SEO from "../components/seo"
 
 const Contact = () => {
   return (
-    <div className="global-wrapper">
-      <Nav />
-      Contact me at zehairawan@gmail.com
-    </div>
+    <Layout>
+      <SEO title="Contact Me" />
+      <p> Contact me at zehairawan@gmail.com</p>
+    </Layout>
   )
 }
 

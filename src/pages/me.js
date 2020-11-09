@@ -1,12 +1,13 @@
 import React from "react"
-import Nav from "../components/Nav"
+import Layout from "../components/Layout"
+import SEO from "../components/seo"
 
 const About = () => {
   return (
-    <div className="global-wrapper">
-      <Nav />
-      Hi I'm Zeha Irawan!
-    </div>
+    <Layout>
+      <SEO title="About Me" />
+      <p> Hi I'm Zeha Irawan!</p>
+    </Layout>
   )
 }
 

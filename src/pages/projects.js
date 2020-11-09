@@ -1,14 +1,17 @@
-import React from 'react'
-import Nav from '../components/Nav'
+import React from "react"
+import Layout from "../components/Layout"
+import SEO from "../components/seo"
 
 const projects = () => {
   return (
-    <div className="global-wrapper">
-      <Nav/>
-      Here are some of my projects:
-      1. MerlinDoc
-      2. Uila!
-    </div>
+    <Layout>
+      <SEO title="My Projects" />
+      <h2> Here are some of my projects:</h2>
+      <ol>
+        <li>MerlinDoc</li>
+        <li>Uila!</li>
+      </ol>
+    </Layout>
   )
 }
 
