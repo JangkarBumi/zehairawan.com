@@ -3,11 +3,11 @@ import Nav from '../components/Nav'
 
 const projects = () => {
   return (
-    <div>
+    <div className="global-wrapper">
       <Nav/>
       Here are some of my projects:
       1. MerlinDoc
-      2. Uila! 
+      2. Uila!
     </div>
   )
 }

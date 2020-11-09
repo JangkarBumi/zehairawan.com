@@ -3,7 +3,7 @@ import Nav from "../components/Nav"
 
 const Contact = () => {
   return (
-    <div>
+    <div className="global-wrapper">
       <Nav />
       Contact me at zehairawan@gmail.com
     </div>

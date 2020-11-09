@@ -334,14 +334,22 @@ a:focus {
 
 /* Nav */
 .nav {
-
-}
-
-.logo{
-
-}
-
-.nav-links{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 1rem;
 }
