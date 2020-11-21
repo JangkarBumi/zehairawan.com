@@ -10,7 +10,9 @@ Tailwind comes to solve exactly that, even though it's not fair to compare compo
 
 ### Install dependencies in dev
 
-`npm i -D tailwindcss postcss-cli autoprefixer@9.8.5`
+```es6
+npm i -D tailwindcss postcss-cli autoprefixer@9.8.5
+```
 
 tailwindcss for
 postcss-cli for
@@ -19,12 +21,21 @@ autoprefixer for . You need to specify the version for this package otherwise yo
 ### Configure postcss
 
 create postcss config
-`touch postcss.config.js`
+```javascript
+touch postcss.config.js
+````
 
 in that file write
 
-`module.exports = { plugins:[ require('tailwindcss'), require('autoprefixer') ] } `
-
+```javascript
+module.exports = {
+  plugins:
+  [
+    require('tailwindcss'),
+    require('autoprefixer')
+  ]
+}
+```
 ### Configure tailwind
 
 Create tailwind config
@@ -32,35 +43,48 @@ Create tailwind config
 It will generate a file called tailwind.config.js .You only need to edit this file if you want to customize tailwind later on.
 
 create assets folder inside src folder
-and
+and the following files.
 
-`src/assets/tailwind.css`
-
-`src/assets/main.css`
-
+```javascript
+src/assets/tailwind.css
+src/assets/main.css
+```
 in tailwind.css
 
-`@import "tailwindcss/base";`
+```javascript
+@import "tailwindcss/base";
 
-`@import "tailwindcss/components";`
+@import "tailwindcss/components";
 
-`@import "tailwindcss/utilities";`
-
+@import "tailwindcss/utilities";
+```
 Edit index.js to include main.css
 
-`import './assets/main.css'`
+```javascript
+import './assets/main.css'
+```
 
 ### Edit Script in package.json
 
-` "scripts": { "start": "npm run watch:css && react-scripts start", "build": "npm run watch:css && react-scripts build", "test": "react-scripts test", "eject": "react-scripts eject", "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css" }`
+```javascript
+  "scripts": {
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run watch:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+  },
+```
 
 You need to restart your CRA server after modifying package.json
 
 ### Test it out
 
-Create h1 element and give it `text-blue-500`
+Create h1 element and add the following class
 
-`<h1 className="text-blue-500">Hello</h1>`
+```html
+<h1 className="text-blue-500">Hello</h1>
+```
 
 It should change the text to blue.
 
@@ -70,6 +94,21 @@ If you want to add your custom classes in tailwind, modify tailwinw.config.js.
 
 For example i want to add custom height classes with vh.
 
-`module.exports = { future: { // removeDeprecatedGapUtilities: true, // purgeLayersByDefault: true, }, purge: [], theme: { extend: { height: { "10v": "10vh", "20v": "20vh", "30v": "30vh", "40v": "40vh", "50v": "50vh", "60v": "60vh", "70v": "70vh", "80v": "80vh", "90v": "90vh", "100v": "100vh", }, }, }, variants: {}, plugins: [], }`
+```javascript
+module.exports = {
+  future: {
+    // removeDeprecatedGapUtilities: true,
+    // purgeLayersByDefault: true,
+  },
+  purge: [],
+  theme: {
+    extend: {
+      height: { "10vh": "10vh", "20vh": "20vh", "30vh": "30vh", "40v": "40vh", "50vh": "50vh", "60vh": "60vh", "70vh": "70vh", "80vh": "80vh", "90vh": "90vh", "100vh": "100vh"}
+    },
+  },
+  variants: {},
+  plugins: [],
+}
+```
 
-After making those changes i can use `h-10v` classes to make height of an element to 10vh.
+After making those changes i can use h-10vh classes to make height of an element to 10vh.

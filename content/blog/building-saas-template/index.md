@@ -1,5 +1,5 @@
 ---
-title: Building SaaS Template
+title: Building React SaaS Template
 date: "2020-11-13"
 description: "What I've learned from building my own SaaS Template"
 ---

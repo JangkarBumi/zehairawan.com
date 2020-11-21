@@ -30,9 +30,9 @@ In this instance i chose to make it global by using useContext hooks, we can als
 2. text.split(' ').length to count word by spaces.
 
 3. handleDownload
-The following code snippet will allow us to download user input value as txt file, which is the `text` variable.
+The following code snippet will allow us to download user input value as txt file, which is the text variable.
 
-`
+```es6
 const handleDownload = () => {
     const element = document.createElement('a');
     const file = new Blob([text], { type: 'text/plain' });
@@ -41,11 +41,11 @@ const handleDownload = () => {
     document.body.appendChild(element); // Required for this to work in FireFox
     element.click();
   };
-`
+```
 
 4. useEffect
 
-`
+```es6
 useEffect(() => {
     const timer = setTimeout(() => {
       alert('Destroyed!');
@@ -54,7 +54,7 @@ useEffect(() => {
       clearTimeout(timer);
     };
   }, [text]);
-`
+```
 
 I'm using react-router-dom package to manage the routing in this app.
 
