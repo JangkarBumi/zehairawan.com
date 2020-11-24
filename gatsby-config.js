@@ -5,7 +5,7 @@ module.exports = {
       name: `Zeha Irawan`,
       summary: `I write about software development, SaaS ideas and business in general.`,
     },
-    description: `Articles to help you learn and master frontend development with React`,
+    description: `Articles about software development, SaaS ideas and business in general.`,
     siteUrl: `https://zehairawan.com/`,
     social: {
       twitter: `zehairawan`,
@@ -119,7 +119,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-149456221-1`,
       },
     },
     `gatsby-plugin-feed`,
@@ -132,7 +132,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/red-anchor.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

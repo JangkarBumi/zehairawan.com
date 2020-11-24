@@ -5,7 +5,7 @@ description: "My goals of writing articles in this blog"
 ---
 
 ## Share what i know
-After reading an article about why should i start a blog in (DEV Community)[https://dev.to/], i realized that i don't have to wait until i'm an expert to share what i know. For example sometimes when i'm reading documentation of a framework or a tools that i want to use, i'm having  a hard time understanding it. I had to google for someone's article that has a bare bones example of it and play around with it.
+After reading an article about why should i start a blog in [DEV Community](https://dev.to/), i realized that i don't have to wait until i'm an expert to share what i know. For example sometimes when i'm reading documentation of a framework or a tools that i want to use, i'm having  a hard time understanding it. I had to google for someone's article that has a bare bones example of it and play around with it.
 
 
 ## Record step by step journey
@@ -15,4 +15,4 @@ After reading an article about why should i start a blog in (DEV Community)[http
  As i got benefit from reading someone's article, i will try to do the same. Even it's just helping one person, if i can save them some time or help them fix a problem that's enough for me.
 
  ## Sharpening my writing skills
- I've always struggled with writing article, i can write a few sentences for copywriting without a problem but when it comes to writing article my style feels rigid. At the start for some reason i think writing is built-in talent. Either you can write a good story or you cant. But after listening to a podcast by (James Clear)[https://jamesclear.com/once-per-week] i just decided to write twice a week, no matter how bad is it.
+ I've always struggled with writing article, i can write a few sentences for copywriting without a problem but when it comes to writing article my style feels rigid. At the start for some reason i think writing is built-in talent. Either you can write a good story or you cant. But after listening to a podcast by [James Clear](https://jamesclear.com/once-per-week) i just decided to write twice a week, no matter how bad is it.

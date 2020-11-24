@@ -1,0 +1,1 @@
+Value doesnt need to come only from the product. It can come from the support and community.
