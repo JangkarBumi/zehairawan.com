@@ -7,6 +7,10 @@ description: "My goals of writing articles in this blog"
 ## Share what i know
 After reading an article about why should i start a blog in [DEV Community](https://dev.to/), i realized that i don't have to wait until i'm an expert to share what i know. For example sometimes when i'm reading documentation of a framework or a tools that i want to use, i'm having  a hard time understanding it. I had to google for someone's article that has a bare bones example of it and play around with it.
 
+## Notes for myself
+The first audience of this blog is myself, it's written using my approach to try to understand things.
+So when i forget how to do things i can read the articles to get the gist of it.
+
 
 ## Record step by step journey
  A few years ago, my mentor and i promoting the same product as an exercise. Short story his campaign is successful and mine barely break even. We both are using the same checklist / principles while creating the landing page and ads copy. When we discussed it he can't explain what he's doing that different. After a few weeks of comparing data we know, it's subtle thing like using their "circle" language and targeting someone who will buy the product as a gift for their relatives instead of directly to the customer. There is bias after you master something to the level of it becomes second nature, it becomes really hard to explain how you do what you do. By writing a blog of my journey at least i can try to minimize it.
